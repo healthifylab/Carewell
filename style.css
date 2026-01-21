@@ -3,8 +3,7 @@
 body { color: #333; line-height: 1.6; }
 
 .header {
-  background: #000000;
-  color: #ffffff;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;

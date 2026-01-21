@@ -154,3 +154,32 @@ footer {
   
   .call-btn { margin: 10px 0; display: block; text-align: center; }
   }
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 45px;          /* Adjust size as needed */
+  width: auto;
+  max-width: 180px;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 10px;     /* If keeping text beside image */
+}
+
+.logo-text span {
+  color: #28A745;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .logo-img {
+    height: 40px;
+  }
+  }
